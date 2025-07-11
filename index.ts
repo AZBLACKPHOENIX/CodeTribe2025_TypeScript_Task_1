@@ -33,12 +33,11 @@ console.log("======Employee Details=======")
 
 employees.forEach((emp, index)=>{
     console.log(`Employee ${index+1}`)
-    console.log(`Fullname:${Employee1.fullname.join(" ")}`)
-    console.log(`Age:${Employee1.age}`)
-    console.log(`Department:${Employee1.department}`)
-    console.log(`Skills:${Employee1.skills}`)
-    console.log(`IsActive:${Employee1.isActive}\n`)
-
+    console.log(`Fullname:${emp.fullname.join(" ")}`)
+    console.log(`Age:${emp.age}`)
+    console.log(`Department:${emp.department}`)
+    console.log(`Skills:${emp.skills}`)
+    console.log(`IsActive:${emp.isActive}\n`)
 })
 }
 
