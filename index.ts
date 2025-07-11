@@ -29,9 +29,10 @@ const logEmployee=():void=>{
 
 
 
-console.log("======Employee Details=======")
+
 
 employees.forEach((emp, index)=>{
+    console.log("======Employee Details=======")
     console.log(`Employee ${index+1}`)
     console.log(`Fullname:${emp.fullname.join(" ")}`)
     console.log(`Age:${emp.age}`)
